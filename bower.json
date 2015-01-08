@@ -5,7 +5,7 @@
         "mhartington <mikehartington@gmail.com>"
     ],
     "description": "A material design inspired text input for Ionic Framework",
-    "main": "ion-md-input.js, ion-md-input.css",
+    "main": "ion-md-input.js",
     "keywords": [
         "ionic",
         "angular",

@@ -18,3 +18,16 @@ You can use any attribute that angular provides.
   [ng-change=""]
   [ng-trim=""]
 ```
+
+## Install
+```
+bower install ion-md-inputs
+```
+
+Reference both the js and css file.
+
+And the angular module as a dependency
+
+```
+angular.module('ionicApp', ['ionic', 'ion-md-input'])
+```
