@@ -1,4 +1,5 @@
 angular.module('ionMdInput', [])
+
     .directive('ionMdInput', function() {
         return {
             restrict: 'E',
