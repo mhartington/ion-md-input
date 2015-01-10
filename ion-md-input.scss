@@ -1,0 +1,79 @@
+$light:#fff !default;
+ $stable:#f8f8f8 !default;
+ $positive:#387ef5 !default;
+ $calm:#11c1f3 !default;
+ $balanced:#33cd5f !default;
+ $energized:#ffc900 !default;
+ $assertive:#ef473a !default;
+ $royal:#886aea !default;
+ $dark:#444 !default;
+ .item-md-label {
+    display: block;
+    background-color: transparent;
+    box-shadow: none;
+    padding-top: 30px;
+    padding-bottom: 0;
+    .input-label {
+        position: absolute;
+        padding: 5px 0 0 0;
+        z-index: 2;
+        top: 28px;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        color: $dark;
+        opacity: 0.5;
+        transform-origin: 0;
+        transform: scale(1);
+    }
+    input {
+        z-index: 1;
+        position: relative;
+        bottom: 0;
+    }
+    .hightlight {
+        position: absolute;
+        bottom: 0;
+        height: 2px;
+        left: 50%;
+        right: 50%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .hightlight-light {
+        background: $light;
+    }
+    .hightlight-stable {
+        background: $stable;
+    }
+    .hightlight-positive {
+        background: $positive;
+    }
+    .hightlight-calm {
+        background: $calm;
+    }
+    .hightlight-balanced {
+        background: $balanced;
+    }
+    .hightlight-energized {
+        background: $energized;
+    }
+    .hightlight-assertive {
+        background: $assertive;
+    }
+    .hightlight-royal {
+        background: $royal;
+    }
+    .hightlight-dark {
+        background: $dark;
+    }
+    input:focus ~ .input-label,
+    input.used ~ .input-label {
+        top: 0;
+        opacity: 1;
+        transform: scale(0.9);
+    }
+    input:focus ~ .hightlight {
+        left: 0;
+        right: 0;
+    }
+}
