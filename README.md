@@ -29,5 +29,5 @@ Reference both the js and css file.
 And the angular module as a dependency
 
 ```
-angular.module('ionicApp', ['ionic', 'ion-md-input'])
+angular.module('ionicApp', ['ionic', 'ionMdInput'])
 ```
