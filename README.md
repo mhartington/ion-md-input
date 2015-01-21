@@ -31,3 +31,8 @@ And the angular module as a dependency
 ```
 angular.module('ionicApp', ['ionic', 'ionMdInput'])
 ```
+##Demo
+
+Talk is cheap, where's the code...
+
+[Demo of the input](http://codepen.io/mhartington/pen/xbgVjb?editors=010)
