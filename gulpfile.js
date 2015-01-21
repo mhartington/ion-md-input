@@ -6,6 +6,10 @@ var rename = require('gulp-rename');
 var ngAnnotate = require('gulp-ng-annotate');
 var uglify = require('gulp-uglify');
 
+
+gulp.task('default', ['sass', 'js']);
+
+
 gulp.task('sass', function(done) {
   gulp.src('./ion-md-input.scss')
     .pipe(sass())
