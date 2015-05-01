@@ -23,7 +23,7 @@ You can use any attribute that angular provides.
 
 ## Install
 ```
-bower install ion-md-inputs
+bower install ion-md-input
 ```
 
 Reference both the js and css file.
