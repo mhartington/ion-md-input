@@ -67,7 +67,7 @@ angular.module('ionMdInput', [])
           if (this.value === '') {
             this.className = mdInput.className.replace(reg, ' ');
           } else {
-            this.classList.toggle(dirtyClass);
+            this.classList.add(dirtyClass);
           }
         };
         // Here we are saying, on 'blur', call toggleClass, on mdInput
