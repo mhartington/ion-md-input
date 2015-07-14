@@ -8,7 +8,7 @@ var uglify = require('gulp-uglify');
 var tag_version = require('gulp-tag-version');
 var git = require('gulp-git');
 var bump = require('gulp-bump');
-
+var filter = require('gulp-filter');
 
 
 gulp.task('default', ['sass', 'js']);
