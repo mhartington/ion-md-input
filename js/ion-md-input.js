@@ -8,18 +8,18 @@ angular.module('ionMdInput', [])
     template: '<label class="item item-input item-md-label">' +
       '<input type="text" class="md-input">' +
       '<span class="input-label"></span>' +
-      '<div class="hightlight"></div>' +
+      '<div class="highlight"></div>' +
       '</label>',
     compile: function(element, attr) {
 
-      var hightlight = element[0].querySelector('.hightlight');
-      var hightlightColor;
-      if (!attr.hightlightColor) {
-        hightlightColor = 'calm';
+      var highlight = element[0].querySelector('.highlight');
+      var highlightColor;
+      if (!attr.highlightColor) {
+        highlightColor = 'calm';
       } else {
-        hightlightColor = attr.hightlightColor;
+        highlightColor = attr.highlightColor;
       }
-      hightlight.className += ' hightlight-' + hightlightColor;
+      highlight.className += ' highlight-' + highlightColor;
 
       var label = element[0].querySelector('.input-label');
       label.innerHTML = attr.placeholder;
