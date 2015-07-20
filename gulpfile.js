@@ -62,12 +62,12 @@ function inc(importance) {
     .pipe(tag_version());
 }
 
-gulp.task('patch', ['build'], function() {
+gulp.task('patch', function() {
   return inc('patch');
 });
-gulp.task('minor', ['build'], function() {
+gulp.task('minor', function() {
   return inc('minor');
 });
-gulp.task('major', ['build'], function() {
+gulp.task('major', function() {
   return inc('major');
 });
