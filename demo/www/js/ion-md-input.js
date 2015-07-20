@@ -65,7 +65,7 @@ angular.module('ionMdInput', [])
           if (this.value === '') {
             this.className = mdInput.className.replace(reg, ' ');
           } else {
-            this.classList.toggle(dirtyClass);
+            this.classList.add(dirtyClass);
           }
         };
 
