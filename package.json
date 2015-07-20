@@ -1,6 +1,6 @@
 {
   "name": "ion-md-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "material design inspired text input for ionic framework",
   "dependencies": {
     "gulp": "^3.5.6",
