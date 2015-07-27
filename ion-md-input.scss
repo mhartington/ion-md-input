@@ -31,7 +31,7 @@ $dark: #444 !default;
     position: relative;
     bottom: 0;
   }
-  .hightlight {
+  .highlight {
     position: absolute;
     bottom: 0;
     height: 2px;
@@ -42,31 +42,31 @@ $dark: #444 !default;
     -webkit-transition: all 0.15s ease;
     transition: all 0.15s ease;
   }
-  .hightlight-light {
+  .highlight-light {
     background: $light;
   }
-  .hightlight-stable {
+  .highlight-stable {
     background: $stable;
   }
-  .hightlight-positive {
+  .highlight-positive {
     background: $positive;
   }
-  .hightlight-calm {
+  .highlight-calm {
     background: $calm;
   }
-  .hightlight-balanced {
+  .highlight-balanced {
     background: $balanced;
   }
-  .hightlight-energized {
+  .highlight-energized {
     background: $energized;
   }
-  .hightlight-assertive {
+  .highlight-assertive {
     background: $assertive;
   }
-  .hightlight-royal {
+  .highlight-royal {
     background: $royal;
   }
-  .hightlight-dark {
+  .highlight-dark {
     background: $dark;
   }
   input:focus ~ .input-label,
@@ -75,7 +75,7 @@ $dark: #444 !default;
     transform: translate3d(0, -60px, 0) scale(0.9);
     opacity: 1;
   }
-  input:focus ~ .hightlight {
+  input:focus ~ .highlight {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
