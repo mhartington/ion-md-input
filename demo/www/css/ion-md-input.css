@@ -19,7 +19,7 @@
     z-index: 1;
     position: relative;
     bottom: 0; }
-  .item-md-label .hightlight {
+  .item-md-label .highlight {
     position: absolute;
     bottom: 0;
     height: 2px;
@@ -29,28 +29,28 @@
     transform: translate3d(-100%, 0, 0);
     -webkit-transition: all 0.15s ease;
     transition: all 0.15s ease; }
-  .item-md-label .hightlight-light {
+  .item-md-label .highlight-light {
     background: #fff; }
-  .item-md-label .hightlight-stable {
+  .item-md-label .highlight-stable {
     background: #f8f8f8; }
-  .item-md-label .hightlight-positive {
+  .item-md-label .highlight-positive {
     background: #387ef5; }
-  .item-md-label .hightlight-calm {
+  .item-md-label .highlight-calm {
     background: #11c1f3; }
-  .item-md-label .hightlight-balanced {
+  .item-md-label .highlight-balanced {
     background: #33cd5f; }
-  .item-md-label .hightlight-energized {
+  .item-md-label .highlight-energized {
     background: #ffc900; }
-  .item-md-label .hightlight-assertive {
+  .item-md-label .highlight-assertive {
     background: #ef473a; }
-  .item-md-label .hightlight-royal {
+  .item-md-label .highlight-royal {
     background: #886aea; }
-  .item-md-label .hightlight-dark {
+  .item-md-label .highlight-dark {
     background: #444; }
   .item-md-label input:focus ~ .input-label, .item-md-label input.used ~ .input-label {
     -webkit-transform: translate3d(0, -60px, 0) scale(0.9);
     transform: translate3d(0, -60px, 0) scale(0.9);
     opacity: 1; }
-  .item-md-label input:focus ~ .hightlight {
+  .item-md-label input:focus ~ .highlight {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }

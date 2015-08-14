@@ -2,3 +2,7 @@
 node_modules/
 platforms/
 plugins/
+demo/platforms
+demo/plugins
+demo/resources
+
