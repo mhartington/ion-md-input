@@ -16,6 +16,7 @@
     "homepage": "github.com/mhartington/ion-md-input",
     "ignore": [
         "**/.*",
+        "demo",
         "node_modules",
         "bower_components",
         "test",
