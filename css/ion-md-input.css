@@ -47,7 +47,8 @@
     background: #886aea; }
   .item-md-label .highlight-dark {
     background: #444; }
-  .item-md-label input:focus ~ .input-label, .item-md-label input.used ~ .input-label {
+  .item-md-label input:focus ~ .input-label,
+  .item-md-label input.used ~ .input-label {
     -webkit-transform: translate3d(0, -60px, 0) scale(0.9);
     transform: translate3d(0, -60px, 0) scale(0.9);
     opacity: 1; }

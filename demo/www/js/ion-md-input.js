@@ -14,10 +14,10 @@ angular.module('ionMdInput', [])
 
       var highlight = element[0].querySelector('.highlight');
       var highlightColor;
-      if (!attr.highlightColor) {
+      if (!attr.highlightcolor) {
         highlightColor = 'calm';
       } else {
-        highlightColor = attr.highlightColor;
+        highlightColor = attr.highlightcolor;
       }
       highlight.className += ' highlight-' + highlightColor;
 
