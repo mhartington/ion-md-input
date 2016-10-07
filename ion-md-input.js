@@ -30,6 +30,7 @@ angular.module('ionMdInput', [])
         'name': attr.name,
         'type': attr.type,
         'ng-value': attr.ngValue,
+        'ng-disabled': attr.ngDisabled,
         'ng-model': attr.ngModel,
         'required': attr.required,
         'ng-required': attr.ngRequired,
