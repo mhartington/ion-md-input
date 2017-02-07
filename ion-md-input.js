@@ -80,6 +80,10 @@ angular.module('ionMdInput', [])
         // Here we are saying, on 'blur', call toggleClass, on mdInput
         ionic.on('blur', toggleClass, mdInput);
 
+        $scope.$watch(attr.ngModel, function () {
+          toggleClass.apply(mdInput);
+        });
+
       };
 
     }
